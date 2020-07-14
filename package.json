@@ -12,9 +12,12 @@
     "test": "run-p --race dev cy:run"
   },
   "dependencies": {
+    "@smui/textfield": "^1.0.0-beta.21",
     "compression": "^1.7.1",
     "polka": "^1.0.0-next.11",
-    "sirv": "^0.4.0"
+    "sirv": "^0.4.0",
+    "svelte-forms-lib": "^1.1.1",
+    "yup": "^0.29.1"
   },
   "devDependencies": {
     "@smui/button": "^1.0.0-beta.21",

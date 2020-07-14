@@ -30,6 +30,9 @@ module.exports = {
 		resolve: { 
 			extensions, 
 			mainFields, 
+			alias: {
+				svelte: path.resolve(__dirname, 'node_modules/svelte')
+			}
 		},
 		module: {
 			rules: [
